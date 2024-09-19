@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #34db7a;
+}
+
+/* Container */
+
+.container{
+    background-color: #fff;
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+/* Header */
+
+#qr-header{
+    text-align: center;
+
+}#qr-headdr h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
